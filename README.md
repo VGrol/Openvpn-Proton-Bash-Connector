@@ -66,7 +66,7 @@ sudo ~/openvpn-connector.sh
 
 ## Notes 
 
-# Reconnect after suspend
+#### Reconnect after suspend
 If you're having trouble with openvpn not reconnecting after waking from suspend,
 Arch users can simply download [openvpn-reconnect](https://aur.archlinux.org/packages/openvpn-reconnect/) from the AUR.
 However it is also possible to make a small systemd service that reconnects automatically.
@@ -91,7 +91,7 @@ systemctl start openvpn-reconnect.service
 ```
 
 
-# Systend Resolver
+#### Systend Resolver
 As of Systemd version 229, the standard resolv-conf updater is now depreciated,
 as Systemd now provides proper API hooks to change the resolver.
 
