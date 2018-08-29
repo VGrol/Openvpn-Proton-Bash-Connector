@@ -11,7 +11,7 @@ printf "
 # This bit checks for arguments, so that input can be provided on the same line that calls the script.
 # If any arguments are provided it'll route to that, else it'll prompt for input.
 
-if [ $@ > 0 ];
+if [ $@ ]
 	then
 		input=$@
 	else

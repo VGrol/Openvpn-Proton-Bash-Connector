@@ -91,6 +91,8 @@ systemctl start openvpn-reconnect.service
 ```
 
 
+
+
 #### Systend Resolver
 As of Systemd version 229, the standard resolv-conf updater is now depreciated,
 as Systemd now provides proper API hooks to change the resolver.
