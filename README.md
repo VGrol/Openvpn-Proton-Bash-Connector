@@ -5,6 +5,11 @@ This is a small bash script that was written to allow for easier VPN selection.
 It has been configured to work out of the box for most ProtonVPN users, 
 if they configure their client files correctly.
 
+This tool is a sore excuse for a hackjob.
+It works, but it isn't pretty and not dynamic by any means.
+I do not care for improving it, as WireGuard should be the next upcoming replacement of OpenVPN.
+If the tools end up lacking for that, I'll write something more dynamic, but for now, this will do.
+
 Documentation is provided to costumize the script and how to run it.
 With some configuration, this should work with all Openvpn client configs. 
 

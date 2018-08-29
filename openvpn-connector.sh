@@ -1,6 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Openvpn Connector Script written by VGrol
 # Configured with ProtonVPN in mind.
+# This is about as much as of a hack-job as it can get.
+# Since wiregaurd should be the next logical upgrade, I do not care for improving it.
+# If the tools lack for WireGuard, I'll write something more dynamic when the time comes.
+
 
 # This is the initial prompt, countries represent their top-level domains.
 # Any change here is purely cosmetic, actual input is decided below.
